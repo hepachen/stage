@@ -1,0 +1,18 @@
+
+
+
+s40
+	s40dev
+		s40dev_hist
+		s40dev_latest
+	s40ratings
+		s40rating_hist
+		s40rating_latest
+ms
+		msdev_hist
+		msdev_latest
+	msratings
+		msrating_hist
+		msrating_latest
+	
+

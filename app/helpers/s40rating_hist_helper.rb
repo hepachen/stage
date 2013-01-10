@@ -1,0 +1,2 @@
+module S40ratingHistHelper
+end

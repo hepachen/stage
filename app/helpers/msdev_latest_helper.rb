@@ -1,0 +1,2 @@
+module MsdevLatestHelper
+end

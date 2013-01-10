@@ -1,0 +1,2 @@
+module MsratingLatestHelper
+end
