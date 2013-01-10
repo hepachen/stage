@@ -1,33 +1,22 @@
 Stage::Application.routes.draw do
-  
+
   root :to => 'home#index'
-  get "msrating_latest/index"
+  match "msft/"=> "ms#index"
+  match "msft/ratings/latest"=> "msrating_latest#index"
+  match "msft/ratings/history"=> "msrating_hist#index"
+  match "msft/ratings"=> "msratings#index"
+  match "msft/developer/latest"=> "msdev_latest#index"
+  match "msft/developer"=> "msdev#index"
+  match "msft/developer/history"=> "msdev_hist#index"
+  match "s40/"=> "s40#index"
+  match "s40/ratings/latest"=> "s40rating_latest#index"
+  match "s40/ratings/history"=> "s40rating_hist#index"
+  match "s40/ratings/"=> "s40ratings#index"
+  match "s40/developer/history"=> "s40dev_hist#index"
+  match "s40/developer/latest"=> "s40dev_latest#index"
+  match "s40/"=> "s40dev#index"
+  
 
-  get "msrating_hist/index"
-
-  get "msratings/index"
-
-  get "msdev_latest/index"
-
-  get "msdev/index"
-
-  get "msdev_hist/index"
-
-  get "ms/index"
-
-  get "s40/index"
-
-  get "s40rating_latest/index"
-
-  get "s40rating_hist/index"
-
-  get "s40ratings/index"
-
-  get "s40dev_hist/index"
-
-  get "s40dev/index"
-
-  get "home/index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
