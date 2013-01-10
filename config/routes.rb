@@ -1,5 +1,8 @@
 Stage::Application.routes.draw do
 
+  resources :users
+
+
   root :to => 'home#index'
   match "msft/"=> "ms#index"
   match "msft/ratings/latest"=> "msrating_latest#index"
